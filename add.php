@@ -13,6 +13,7 @@ $endWork1 = addslashes($_GET['endWork1']);
 $startWork2 = addslashes($_GET['startWork2']);
 $endWork2 = addslashes($_GET['endWork2']);
 
+//http://172.20.0.51/control_horario/add.php?worker=Albert&startWork1=0800&endWork1=1400&startWork2=1500&endWork2=1900
 
 
 // Create connection
@@ -32,7 +33,3 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
-
-
-?>
